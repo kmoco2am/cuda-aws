@@ -26,9 +26,9 @@ Vagrant.configure(2) do |config|
      sudo apt-get update
 	 sudo apt-get -y upgrade
 	 sudo apt-get install -y linux-image-extra-`uname -r`
-	 sudo wget http://developer.download.nvidia.com/compute/cuda/repos/ubuntu1504/x86_64/cuda-repo-ubuntu1504_7.5-18_amd64.deb
+     sudo wget http://developer.download.nvidia.com/compute/cuda/repos/ubuntu1504/x86_64/cuda-repo-ubuntu1504_7.5-18_amd64.deb
      sudo dpkg -i cuda-repo-ubuntu1504_7.5-18_amd64.deb
-	 sudo apt-get update
+     sudo apt-get update
      sudo apt-get install -y cuda
 	 echo -e "\nexport PATH=/usr/local/cuda/bin:$PATH\n\nexport LD_LIBRARY_PATH=/usr/local/cuda/lib64" >>/root/.bashrc
   SHELL
