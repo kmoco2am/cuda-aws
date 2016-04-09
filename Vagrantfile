@@ -16,8 +16,8 @@ Vagrant.configure(2) do |config|
   # config.vm.synced_folder "../data", "/vagrant_data"
 
   config.vm.provider :aws do |aws, override|
-    aws.access_key_id = "AKIAJGS343Z7J32VPUNA"
-    aws.secret_access_key = "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"
+    aws.access_key_id = "<xxx>"
+    aws.secret_access_key = "<yyy>"
     aws.keypair_name = "cuda-test-east1"
 
 	# Ubuntu 15.04 in N. Virginia
