@@ -16,8 +16,8 @@ Vagrant.configure(2) do |config|
     aws.ami = "ami-f50e209f"
 
     # K520 - 8 processors
-    #aws.instance_type = 'g2.2xlarge'
-	aws.instance_type = 't2.micro'
+    aws.instance_type = 'g2.2xlarge'
+	#aws.instance_type = 't2.micro'
 
     override.ssh.username = "ubuntu"
   end
