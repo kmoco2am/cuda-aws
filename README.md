@@ -5,4 +5,5 @@
 ```
 source env.sh
 vagrant up
+vagrant reload # to restart the box after provisioning
 ```
